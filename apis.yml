@@ -1,7 +1,31 @@
 aid: viki
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/viki.png
 name: Viki
-description: Viki is a company surfaced as a portfolio company of 500-global, a16z, crv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Viki (Rakuten Viki) is a global video streaming service specializing in Korean
+  dramas, Chinese dramas, and other Asian television shows and movies, subtitled
+  into more than 200 languages by a community of volunteer contributors (the name
+  is a portmanteau of "video" and "wiki"). Founded as a startup backed by 500
+  Global, Andreessen Horowitz (a16z), and CRV, Viki was acquired by Rakuten in
+  2013 and now operates as part of Rakuten's media portfolio. The consumer product
+  streams licensed content on web, mobile, and connected-TV apps, funded by
+  advertising and a Viki Pass subscription. Viki does not publish a public
+  developer API or developer portal; it exposes an internal application API
+  (api.viki.io) that powers its own clients and requires app credentials, and a
+  community contribution platform for volunteer subtitlers and segmenters. This
+  profile was surfaced as a venture-portfolio lead and enriched with the honest
+  finding that there is no public API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/viki/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Streaming
+- Video
+- Entertainment
+- Media
+- Korean Drama
+- Subtitling
+- Rakuten
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,12 @@ maintainers:
 common:
 - type: Website
   url: https://viki.com
+- type: Support
+  url: https://support.viki.com
+- type: DomainSecurity
+  url: security/viki-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
