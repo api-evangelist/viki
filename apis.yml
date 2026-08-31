@@ -68,6 +68,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/rakuten/
+  name: Rakuten
+  x-relationship: acquired
+  x-evidence: "Founded as a startup backed by 500 Global, Andreessen Horowitz (a16z), and CRV, Viki was acquired by Rakuten in 2013 and now operates as part of Rakuten's media portfolio."
 - type: Website
   url: https://viki.com
 - type: Support
